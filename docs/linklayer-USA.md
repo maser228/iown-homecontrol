@@ -45,7 +45,7 @@ Length of the frame in bytes, not including the header and this control byte or 
 
 ## Control byte 2
 
-This control byte gives more information on the frame and the device themselves (bit positions in the header):
+(Same as euro version) This control byte gives more information on the frame and the device themselves (bit positions in the header):
 
 |     7      |   6    |       5        | 4 | 3 | 2 |       1-0        |
 |:----------:|:------:|:--------------:|:-:|:-:|:-:|:----------------:|
@@ -103,7 +103,7 @@ After the payload, there is a 16-bit CRC.  In most cases this is calculated auto
 
 ## Stack system key (check this)
 
-Each two-way controller has a stack or system key. This is an AES-128 key used to sign io frames with the trailing MAC. 
+Each two-way controller has a stack or system key. This is an AES-128 key used to sign io frames with the trailing MAC.
 
 ## Discovery
 
