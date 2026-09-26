@@ -53,6 +53,7 @@ Below is a list of some known working and non-working 2.4GHz radios for US io-Ho
 |    Radio (Chip or Product)     | Works? |                                             Comment                                             |
 |:------------------------------:|:------:|:-----------------------------------------------------------------------------------------------:|
 |        Atmel AT86RF233         |  Yes   | Allows custom sync byte and ignoring invalid MAC headers.  Used by Velux for US-market devices. |
-| Sonoff Zigbee 3.0 USB Dongle-E |   No   |                    Hard-coded to 0xA7 sync byte, won't sync on io-HC frames                     |
+| Sonoff Zigbee 3.0 USB Dongle-E |   No   |       "Proprietary Mode" required to change 0xA7 sync byte not supported on this variant        |
 |            nRF52840            |  Yes   |                           Supports custom sync byte, no MAC filtering                           |
 |             CC2500             |   No   |                                Doesn't support O-QPSK modulation                                |
+
